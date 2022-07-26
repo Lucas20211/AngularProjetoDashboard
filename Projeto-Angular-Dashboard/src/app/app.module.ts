@@ -10,6 +10,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import { DefaultModule } from './layouts/default/default.module';
+
 
 
 
@@ -26,7 +28,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatIconModule,
     MatDividerModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DefaultModule
   ],
   providers: [],
   bootstrap: [AppComponent]
