@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { PostsComponent } from 'src/app/modules/posts/posts.component';
 import { ShaderModule } from 'src/app/shader/shader.module';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 
@@ -13,13 +14,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
   declarations: [
     DefaultComponent,
     DashboardComponent,
-    PostsComponent
+    PostsComponent,
   ],
   imports: [
     CommonModule,
     RouterModule,
     ShaderModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDividerModule
   ]
 })
 export class DefaultModule { }

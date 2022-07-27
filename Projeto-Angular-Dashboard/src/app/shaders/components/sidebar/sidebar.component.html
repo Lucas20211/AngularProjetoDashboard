@@ -1,1 +1,32 @@
-<p>sidebar works!</p>
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Lucas Martins</h2>
+            <h4>example@email.com</h4>
+        </div>
+        <img src="https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/293389330_510975117465543_6278863115476993078_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEdGvjN84SqTpvS-NCHN1ZjHwREbuz_AOIfBERu7P8A4h2olQJq-104eryTtTmEpnTecTxeLHTR9aH0K8NIqbkU&_nc_ohc=oI0xlkbU_oIAX-QuR1h&_nc_ht=scontent-gru1-2.xx&oh=00_AT-55ggc1au0u20Yx4U5jVz4NMn7Ap2aQ4hA5hshRoNozg&oe=62E57B77" alt="Profile photo">
+    </div>
+    
+    <mat-divider></mat-divider>
+    
+    <h2 matSubheader>Pages</h2>
+    
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/"> Dashboard </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/posts"> Posts </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/articles"> Articles </a>
+    
+    <mat-divider></mat-divider>
+    
+    <h2 mat-subheader>Tools</h2>
+    
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+    
+</mat-nav-list>
+
